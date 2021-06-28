@@ -22,7 +22,7 @@ import {MigrationInterface, QueryRunner, Table} from "typeorm";
                             default: "now()"
                         },
                         {
-                            name: "updadted_at",
+                            name: "updated_at",
                             type: "timestamp",
                             default: "now()"
                         },
